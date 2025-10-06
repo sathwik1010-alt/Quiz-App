@@ -1,14 +1,4 @@
  🎮 Quiz App - GATTU SATHWIK
-
- 
-A *modern and interactive Quiz Application* built with React.js. Users can select a category, answer *3 questions*, and view their score with instant feedback. Perfect for testing knowledge or as a learning project.…Read more
-1:01 PM
-1 unread message
-Perfect! Here’s a *clean, professional README* for your Quiz App *without any # or ## headers*, so it displays as plain text but still looks structured and readable.
-
----
-
-Quiz App - GATTU SATHWIK
 License: MIT | React | JavaScript
 
 A modern and interactive Quiz Application built with React.js. Users can select a category, answer 3 questions, and view their score with instant feedback. Perfect for testing knowledge or as a learning project.
