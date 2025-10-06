@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+ 🎮 Quiz App - GATTU SATHWIK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+A *modern and interactive Quiz Application* built with React.js. Users can select a category, answer *3 questions*, and view their score with instant feedback. Perfect for testing knowledge or as a learning project.…Read more
+1:01 PM
+1 unread message
+Perfect! Here’s a *clean, professional README* for your Quiz App *without any # or ## headers*, so it displays as plain text but still looks structured and readable.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+Quiz App - GATTU SATHWIK
+License: MIT | React | JavaScript
 
-### `npm start`
+A modern and interactive Quiz Application built with React.js. Users can select a category, answer 3 questions, and view their score with instant feedback. Perfect for testing knowledge or as a learning project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features
 
-### `npm test`
+Select quiz categories: Science, Technology, Sports
+Answer 3 questions per quiz
+Immediate feedback for correct/incorrect answers
+Progress bar showing current question
+Dynamic Result Page showing score and message
+Restart quiz functionality
+Fully responsive layout with sticky footer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React.js – Frontend framework for building interactive UI
+CSS / Flexbox – Styling and responsive layout
+JavaScript (ES6) – Logic and state management
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Project Structure
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+quiz-app-gattu/
+│
+├─ public/
+│   └─ index.html
+│
+├─ src/
+│   ├─ components/
+│   │   ├─ Header.js
+│   │   ├─ Footer.js
+│   │   ├─ CategorySelect.js
+│   │   ├─ Quiz.js
+│   │   ├─ Question.js
+│   │   └─ Result.js
+│   │
+│   ├─ data/
+│   │   └─ questions.js
+│   │
+│   ├─ styles/
+│   │   └─ quiz.css
+│   │
+│   ├─ App.js
+│   ├─ App.css
+│   └─ index.js
+│
+└─ package.json
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Installation & Running Locally
 
-## Learn More
+Clone the repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+git clone https://github.com/YOUR_USERNAME/quiz-app-gattu.git
+cd quiz-app-gattu
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+npm install
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Start the app
 
-### Making a Progressive Web App
+bash
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+The app will open in your browser at [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Open the app in the browser
+Select a quiz category
+Answer 3 questions
+View your score and feedback
+Click Restart Quiz to try again
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Customization
+
+Add more categories or questions in src/data/questions.js
+Modify styling in App.css or quiz.css
+Update Header or Footer for branding
+Add icons or animations to enhance UI
+
+---
+
+Author
+
+GATTU SATHWIK – Developer & Creator
+GitHub Profile: [https://github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+
+---
+
+License
+
+This project is open-source under the MIT License
