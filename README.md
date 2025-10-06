@@ -25,44 +25,13 @@ JavaScript (ES6) – Logic and state management
 
 ---
 
-Project Structure
-
-
-quiz-app-gattu/
-│
-├─ public/
-│   └─ index.html
-│
-├─ src/
-│   ├─ components/
-│   │   ├─ Header.js
-│   │   ├─ Footer.js
-│   │   ├─ CategorySelect.js
-│   │   ├─ Quiz.js
-│   │   ├─ Question.js
-│   │   └─ Result.js
-│   │
-│   ├─ data/
-│   │   └─ questions.js
-│   │
-│   ├─ styles/
-│   │   └─ quiz.css
-│   │
-│   ├─ App.js
-│   ├─ App.css
-│   └─ index.js
-│
-└─ package.json
-
-
----
 
 Installation & Running Locally
 
 Clone the repository
 
 bash
-git clone https://github.com/YOUR_USERNAME/quiz-app-gattu.git
+git clone https://github.com/sathwik1010-alt/quiz-app.git
 cd quiz-app-gattu
 
 
@@ -104,7 +73,7 @@ Add icons or animations to enhance UI
 Author
 
 GATTU SATHWIK – Developer & Creator
-GitHub Profile: [https://github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+GitHub Profile: (https://github.com/sathwik1010-alt)
 
 ---
 
