@@ -1,0 +1,30 @@
+.question-box {
+  margin-top: 30px;
+}
+
+.options button {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.options button:hover {
+  background: #007bff;
+  color: white;
+}
+
+button.correct {
+  background: #28a745;
+  color: white;
+}
+
+button.wrong {
+  background: #dc3545;
+  color: white;
+}

@@ -1,0 +1,68 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ensures the App takes full viewport height */
+  align-items: center;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+footer {
+  margin-top: auto; /* pushes footer to the bottom */
+  width: 100%;
+}
+
+.category-container {
+  margin-top: 20px;
+}
+
+.category-grid {
+  display: flex;           /* horizontal layout */
+  justify-content: center; /* center horizontally */
+  gap: 20px;               /* spacing between buttons */
+  flex-wrap: wrap;         /* wrap to next line on small screens */
+}
+
+.category-grid button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category-grid button:hover {
+  background-color: #0056b3;
+}
